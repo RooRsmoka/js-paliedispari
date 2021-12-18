@@ -43,7 +43,7 @@ console.log(sum);
 //     console.log('Hai perso!');
 // }
 
-if(userWin()) {
+if(userWin(sum, userChoice)) {
     console.log('Hai vinto!');
 } else {
     console.log('Hai perso!');

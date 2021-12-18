@@ -22,10 +22,10 @@ function ispalindrome(word) {
 // Chiedo all'utente di inserire una parola.
 const userWord = prompt('Inserisci una parola a tua scelta.');
 // Creo la variabile e salvo l'elemento in cui stampero un messaggio.
-let outputHtml = document.querySelector('.output')
+let outputHtml = document.querySelector('.output');
 // Stampo nel documento un messaggio a seconda del risultato.
 if (ispalindrome(userWord)) {
-    outputHtml.innerHTML = `La parola ${userWord} è un palindromo.`
+    outputHtml.innerHTML = `La parola ${userWord} è un palindromo.`;
 } else {
-    outputHtml.innerHTML = `La parola ${userWord} non è un palindromo.`
+    outputHtml.innerHTML = `La parola ${userWord} non è un palindromo.`;
 }
